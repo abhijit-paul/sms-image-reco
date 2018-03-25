@@ -1,0 +1,31 @@
+{
+  "name": "sms-image-reco",
+  "version": "1.0.0",
+  "description": "SMS image recognition from Blippar",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijit-paul/sms-image-reco.git"
+  },
+  "keywords": [
+    "sms",
+    "visual",
+    "search"
+  ],
+  "author": "Abhijit Paul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhijit-paul/sms-image-reco/issues"
+  },
+  "homepage": "https://github.com/abhijit-paul/sms-image-reco#readme",
+  "dependencies": {
+    "form-data": "^2.3.2",
+    "parse-json": "^4.0.0",
+    "request": "^2.85.0",
+    "url": "^0.11.0"
+  }
+}

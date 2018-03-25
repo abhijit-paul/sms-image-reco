@@ -3,6 +3,8 @@ Send sms with image url to receive recognition details from Blippar's engine
 
 # Steps to run the recognition
 * Create an account in textlocal.in
+* Create an account in Blippar.
+* Register for your free Blippar Visual Search key from https://developer.blippar.com/portal/vs-api/index/
 * Provide your personalized settings
 * Deploy the code in a publicly accessible server
 * Provide the server IP or domain name under Forward messages section textlocal.in inbox settings
@@ -21,6 +23,9 @@ Send sms with image url to receive recognition details from Blippar's engine
 * Service details:
   * textlocal-tag: This is your personalized or default tag that textlocal service will assign you for your account. You'll find this under control.textlocal.in/messages/ . You may choose to waiver this tag if you use multiple accounts for different services. In this case, just make it empty in the codebase
   * inbox_id: Your textlocal inbox indentifier. You can find the ID of your default inbox in the URL by going to Messages->View inbox 
+* Blippar Visual Search Credentials: You'll shortly receive an email containing the details once you register for Blippar Visual Search
+  * blipparVsClientId: Client ID for your Blippar account
+  * blipparVsClientSecret: Client Secret for your Blippar account
   
 # Demo screenshots:
 * ![SMS](https://goo.gl/Ffk7gJ "Sending SMS to textlocal number")
