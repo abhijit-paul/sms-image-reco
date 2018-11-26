@@ -26,10 +26,6 @@ Send sms with image url to receive recognition details from Blippar's engine
 * Blippar Visual Search Credentials: You'll shortly receive an email containing the details once you register for Blippar Visual Search
   * blipparVsClientId: Client ID for your Blippar account
   * blipparVsClientSecret: Client Secret for your Blippar account
-  
-# Demo screenshots:
-* ![SMS](https://goo.gl/Ffk7gJ "Sending SMS to textlocal number")
-* ![RECOGNITION](https://goo.gl/X3jp8q "Receiving recognition details in message")
 
 
 # 3rd party service
